@@ -1,0 +1,11 @@
+{
+  "title": "Backend Engineer — Data Platform",
+  "required_skills": ["Python", "Kafka", "PostgreSQL", "REST APIs", "Docker"],
+  "preferred_skills": ["Kubernetes", "Spark", "Airflow"],
+  "responsibilities": [
+    "Design and maintain high-throughput data pipelines",
+    "Own the reliability of our streaming infrastructure",
+    "Collaborate with ML team to productionise models"
+  ],
+  "min_years_experience": 3
+}

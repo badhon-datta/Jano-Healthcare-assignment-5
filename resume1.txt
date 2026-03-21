@@ -1,0 +1,21 @@
+Jane Doe | jane@example.com | github.com/janedoe | linkedin.com/in/janedoe
+
+EXPERIENCE
+
+Senior Data Engineer — Acme Corp (2020–2024)
+  - Architected a Kafka-based event streaming platform processing 2M events/day
+  - Led migration from monolith to microservices, reducing deploy time by 60%
+  - Owned PostgreSQL cluster optimisation; cut query latency by 45%
+  - Drove adoption of Docker + Kubernetes across 3 engineering teams
+  - Mentored team of 4 junior engineers
+
+Software Engineer — StartupXYZ (2018–2020)
+  - Built REST APIs in Python/FastAPI serving 50,000 daily active users
+  - Containerised all services with Docker; deployed to AWS ECS
+  - Spearheaded move to async task queues (Celery + Redis), improving throughput 3x
+
+SKILLS
+Python, Kafka, PostgreSQL, FastAPI, Docker, Kubernetes, Redis, Airflow, AWS, Spark
+
+EDUCATION
+B.Tech Computer Science — IIT Bombay (2018)
