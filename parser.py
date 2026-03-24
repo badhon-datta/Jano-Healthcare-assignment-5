@@ -16,16 +16,16 @@ You are a precise resume parser. Extract the following fields from the resume te
 Respond ONLY with a valid JSON object — no markdown, no explanation.
 
 JSON schema:
-{
+{{
   "candidate_name": "string",
   "email": "string (empty string if not found)",
   "skills": ["list of technical skills, tools, languages, frameworks"],
-  "years_experience": <integer, estimate from work history if not stated>,
+  "years_experience": 0,
   "achievements": ["quantified impact bullets, e.g. 'reduced latency by 40%'"],
   "ownership_signals": ["phrases showing leadership/ownership, e.g. 'led team of 5', 'architected the data pipeline'"],
-  "github_url": "string or null",
-  "linkedin_url": "string or null"
-}
+  "github_url": null,
+  "linkedin_url": null
+}}
 
 Rules:
 - skills: include ALL technical mentions (languages, frameworks, tools, cloud platforms, databases)
