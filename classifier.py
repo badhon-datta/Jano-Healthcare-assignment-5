@@ -40,13 +40,14 @@ class TierClassifier:
         )
 
     @staticmethod
-    def _determine_tier(scores: DimensionalScores) -> Tier:
+    def _determine_tier(scores):
         composite = scores.composite
-        if composite >= TIER_THRESHOLDS[Tier.A]:
+        if composite >= 0.75:
             return Tier.A
-        if composite >= TIER_THRESHOLDS[Tier.B]:
+        elif composite >= 0.49:
             return Tier.B
-        return Tier.C
+        else:
+            return Tier.C
 
     @staticmethod
     def _build_reasoning(scores: DimensionalScores, tier: Tier) -> str:
