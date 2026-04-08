@@ -1,5 +1,4 @@
 # AI Resume Shortlisting & Interview Assistant System
-### Assignment 5 — Jano Health SWE Internship Take-Home
 
 ---
 
